@@ -17,3 +17,30 @@ body {
   color: #b69de0;
 
 }
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin: 0.25rem;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover {
+      opacity: 0.85;
+  }
+}
+
+.btn-email {
+  background: #2a6df4;
+}
+
+.btn-reddit {
+  background: #ff4500;
+}
+
+
+.btn-github {
+  background: #b69de0;
+}
