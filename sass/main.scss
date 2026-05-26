@@ -1,6 +1,20 @@
 // sass/main.scss
 @use "carousel";
 
+@font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/rubik-latin-400-normal.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/rubik-latin-900-normal.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
 body {
   min-height: 100vh;
   margin: 0;
@@ -12,10 +26,15 @@ body {
   font-family: system-ui, sans-serif;
   padding: 1rem;
   box-sizing: border-box;
-  font-family: Rubik;
+  font-family: 'Rubik';
   background-color: #270d51;
   color: #b69de0;
 
+}
+
+/* Tell headings to use your heavy 900 file */
+h1, h2 {
+    font-weight: 900; 
 }
 
 .btn {
